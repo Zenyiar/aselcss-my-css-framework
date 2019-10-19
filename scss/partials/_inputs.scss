@@ -1,0 +1,13 @@
+input {
+    width: 100%;
+    padding: 1%;
+    border: none;
+    border-radius: $border-radius;
+    border-bottom: 2px solid $secondary-color;
+    margin-bottom: 1%;
+
+    &:focus {
+        outline: none;
+        border-bottom: 2px solid $primary-color;
+    }
+}

@@ -1,0 +1,30 @@
+.alert {
+    padding: 1%;
+    margin-bottom: $margin-bottom;
+    border-radius: $border-radius;
+
+    &-primary {
+        background: $primary-color;
+        color: white;
+    }
+    
+    &-secondary {
+        background: $secondary-color;
+        color: white;
+    }
+
+    &-success {
+        background: $success-color;
+        color: white;
+    }
+
+    &-danger {
+        background: $danger-color;
+        color: white;
+    }
+
+    &-warning {
+        background: $warning-color;
+        color: white;
+    }
+}

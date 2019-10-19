@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: $primary-color;
+    .navbar-brand {
+        padding: .9rem 2rem;
+        h1, h2, h3, h4, h5, h6, label, a {
+            color: white;
+            text-decoration: none;
+            font-size: 27px;
+        }
+    }
+    .navbar-links {
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+                a {
+                    display: block;
+                    text-decoration: none;
+                    color: white;
+                    padding: 1.3rem 1rem;
+                    &:hover {
+                        background: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}

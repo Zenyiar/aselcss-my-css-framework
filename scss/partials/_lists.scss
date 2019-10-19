@@ -1,0 +1,12 @@
+.list-group {
+    list-style: none;
+    padding: 1%;
+    border-radius: $border-radius;
+    background: #eee;
+
+    li {
+        padding: 1%;
+        background: #fff;
+        margin: 1%;
+    }
+}

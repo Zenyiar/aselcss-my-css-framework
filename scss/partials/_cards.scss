@@ -1,0 +1,19 @@
+.card {
+    padding: 1%;
+    margin-bottom: 1rem;
+    border-radius: $border-radius;
+
+    &-header {
+        background: $primary-color;
+        padding: 1%;
+        min-width: 200px;
+        color: white;
+        border-radius: $border-radius;
+    }
+
+    &-body {
+        background: #eee;
+        padding: 1.2%;
+        min-width: 200px;
+    }
+}

@@ -1,0 +1,66 @@
+.btn {
+    padding: 1%;
+    margin-bottom: $margin-bottom;
+
+    // Default button if no btn-(type) 
+    // Basically no styling yet
+    text-decoration: none;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: $border-radius;
+
+    &-primary {
+        background: rgba(36, 123, 160, .8);
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            background: rgba(36, 123, 160, 1);
+        }
+    }
+    
+    &-secondary {
+        background: rgba(99, 173, 242, .8);
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            background: rgba(99, 173, 242, 1);
+        }
+    }
+
+    &-success {
+        background: rgba(50, 205, 50, .8);
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            background: rgba(50, 205, 50, 1);
+        }
+    }
+
+    &-danger {
+        background: rgba(255, 0, 0, .8);
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            background: rgba(255, 0, 0, 1);
+        }
+    }
+
+    &-warning {
+        background: rgba(255, 165, 0, .8);
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            background: rgba(255, 165, 0, 1);
+        }
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
