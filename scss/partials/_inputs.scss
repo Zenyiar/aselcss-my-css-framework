@@ -10,4 +10,21 @@ input {
         outline: none;
         border-bottom: 2px solid $primary-color;
     }
+
+    // Makes it a little bit cleaner 
+    &[type=submit] {
+        border-bottom: none;
+    }
+    
+    &[type=color] {
+        border-bottom: none;
+    }
+    
+    &[type=button] {
+        border-bottom: none;
+    }
+    
+    &[type=reset] {
+        border-bottom: none;
+    }
 }

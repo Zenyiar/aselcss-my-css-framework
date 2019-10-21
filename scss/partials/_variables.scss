@@ -1,7 +1,7 @@
+// Defaults
 $max-width: 1200px;
-
-$margin-bottom: 1rem;
 $border-radius: .2rem;
+$font-family: 'Segoe UI', sans-serif;
 
 // Colors
 $primary-color: #247BA0;
@@ -10,3 +10,13 @@ $success-color: #46DB2B;
 $warning-color: #F1A208;
 $danger-color: #D62828;
 $info-color: #053C5E;
+
+$dark: #373a3c;
+$light: #f8f9fa;
+
+// Screen Sizing
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;

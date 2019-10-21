@@ -1,21 +1,29 @@
 .bg {
     &-primary {
-        background: $primary-color;
+        background: $primary-color !important;
     }
 
     &-secondary {
-        background: $secondary-color;
+        background: $secondary-color !important;
     }
 
     &-success {
-        background: $success-color;
+        background: $success-color !important;
     }
 
     &-warning {
-        background: $warning-color;
+        background: $warning-color !important;
     }
 
     &-danger {
-        background: $danger-color;
+        background: $danger-color !important;
+    }
+
+    &-dark {
+        background: $dark !important;
+    }
+
+    &-light {
+        background: $light !important;
     }
 }

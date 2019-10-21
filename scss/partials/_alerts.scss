@@ -1,8 +1,27 @@
 .alert {
-    padding: 1%;
-    margin-bottom: $margin-bottom;
+    padding: 20px;
+    margin-bottom: 15px;
     border-radius: $border-radius;
 
+    opacity: 1;
+    transition: opacity 0.6s;
+
+    // Close Button
+    &-close {
+        margin-left: 15px;
+        float: right;
+
+        cursor: pointer;
+        color: white;
+
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 20px;
+
+        transition: 0.3s;
+    }
+
+    // Colors
     &-primary {
         background: $primary-color;
         color: white;

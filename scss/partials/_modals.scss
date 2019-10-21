@@ -1,0 +1,52 @@
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    color: white;
+
+    // Close Modal
+    &-close {
+        margin-left: 10px;
+        float: right;
+
+        cursor: pointer;
+        color: white;
+
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    // Parts of Modal
+    &-header {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        width: 50%;
+        background: coral;
+        transform: translate(-50%, -30%);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        padding: 1%;
+    }
+
+    &-body {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        height: 50%;
+        background: white;
+        color: black;
+        transform: translate(-50%, -50%);
+        padding: 1%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    // Colors
+}
