@@ -1,7 +1,6 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background: $primary-color;
     .navbar-brand {
         padding: .9rem 2rem;
         h1, h2, h3, h4, h5, h6, label, a {
@@ -20,8 +19,81 @@
                     text-decoration: none;
                     color: white;
                     padding: 1.3rem 1rem;
-                    &:hover {
-                        background: $secondary-color;
+                }
+            }
+        }
+    }
+
+    // Themes
+    &-primary {
+        background: $primary-color;
+        .navbar-links {
+            ul {
+                li {
+                    a {
+                        &:hover {
+                            background: $secondary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &-secondary {
+        background: $secondary-color;
+        .navbar-links {
+            ul {
+                li {
+                    a {
+                        &:hover {
+                            background: $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &-success {
+        background: $success-color;
+        .navbar-links {
+            ul {
+                li {
+                    a {
+                        &:hover {
+                            background: lime;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &-warning {
+        background: $warning-color;
+        .navbar-links {
+            ul {
+                li {
+                    a {
+                        &:hover {
+                            background: $danger-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &-danger {
+        background: $danger-color;
+        .navbar-links {
+            ul {
+                li {
+                    a {
+                        &:hover {
+                            background: $warning-color;
+                        }
                     }
                 }
             }
