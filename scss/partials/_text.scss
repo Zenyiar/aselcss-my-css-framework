@@ -1,18 +1,19 @@
+// Text Types
 .text {
-    &-justify {
-        text-align: center;
+    &-left {
+        text-align: left;
     }
 
     &-center {
         text-align: center;
     }
 
-    &-left {
-        text-align: left;
-    }
-
     &-right {
         text-align: right;
+    }
+
+    &-justify {
+        text-align: justify;
     }
 
     // Colors
@@ -23,4 +24,38 @@
     &-black {
         color: black;
     }
+}
+
+// Headers
+.card {
+    &-header {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+    }
+
+    &-body {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1rem;
 }

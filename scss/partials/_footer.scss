@@ -1,25 +1,32 @@
-.navbar {
+.footer {
     display: flex;
     justify-content: space-between;
-    &-mobile-button {
-        display: none;
-    }
-    &-mobile-links {
-        display: none;
-    }
-    &-brand {
-        padding: .9rem 2rem;
-        h1, h2, h3, h4, h5, h6, label, a {
+
+    &-section {
+
+        p,
+        a,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            padding: 1rem;
+            margin-top: 1%;
             color: white;
             text-decoration: none;
-            font-size: 27px;
+            font-size: 20px;
         }
     }
+
     &-links {
         ul {
             display: flex;
+
             li {
                 list-style: none;
+
                 a {
                     display: block;
                     text-decoration: none;
@@ -33,7 +40,7 @@
     // Themes
     &-primary {
         background: $primary-color;
-        .navbar-links {
+        .footer-links {
             ul {
                 li {
                     a {
@@ -48,7 +55,7 @@
 
     &-secondary {
         background: $secondary-color;
-        .navbar-links {
+        .footer-links {
             ul {
                 li {
                     a {
@@ -63,7 +70,7 @@
 
     &-success {
         background: $success-color;
-        .navbar-links {
+        .footer-links {
             ul {
                 li {
                     a {
@@ -78,7 +85,7 @@
 
     &-warning {
         background: $warning-color;
-        .navbar-links {
+        .footer-links {
             ul {
                 li {
                     a {
@@ -93,7 +100,7 @@
 
     &-danger {
         background: $danger-color;
-        .navbar-links {
+        .footer-links {
             ul {
                 li {
                     a {
@@ -108,7 +115,7 @@
 
     &-info {
         background: $info-color;
-        .navbar-links {
+        .footer-links {
             ul {
                 li {
                     a {
@@ -120,48 +127,4 @@
             }
         }
     }
-}
-
-@media screen and (max-width: $breakpoint-md) {
-    .navbar {
-        &-links {
-            display: none;
-        }
-
-        &-mobile-links {
-            display: none;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-        &-mobile-button {
-            display: flex;
-            padding: .5rem 1.5rem;
-            background: none;
-            border: none;
-            .hamburger {
-                .line {
-                    background: white;
-                }
-            }
-        }
-    }
-    
-    // &-links {
-    //     ul {
-    //         display: flex;
-    //         li {
-    //             list-style: none;
-    //             a {
-    //                 display: block;
-    //                 text-decoration: none;
-    //                 color: white;
-    //                 padding: 1.3rem 1rem;
-    //             }
-    //         }
-    //     }
-    // }
 }

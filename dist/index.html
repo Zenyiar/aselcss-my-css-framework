@@ -13,6 +13,13 @@
         <div class="navbar-brand">
             <a href="#">AselCSS</a> 
         </div>
+        <button class="navbar-mobile-button">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </button>
         <div class="navbar-links">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -22,6 +29,18 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
+        <!-- <div class="navbar-mobile-links bg-primary">
+
+        </div> -->
+    </div>
+
+    <div class="container">
+        <h1>This is a header!</h1>
+        <h2>This is a header!</h2>
+        <h3>This is a header!</h3>
+        <h4>This is a header!</h4>
+        <h5>This is a header!</h5>
+        <h6>This is a header!</h6>
     </div>
 
     <!-- <div class="container">
@@ -39,7 +58,6 @@
 
     <!-- Default Stuff -->
     <div class="container">
-        <h4>Welcome!</h4>
         <div class="card">
             <div class="card-header">
                 <h3>Card Header</h3>
@@ -55,35 +73,42 @@
 
         <!-- Alerts -->
         <div class="alert alert-primary">
-            <span class="alert-close" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span class="alert-close">&times;</span>
             <p>Your in danger! nah jk but heres some lorem: Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Odio repudiandae nesciunt laborum nulla corrupti assumenda voluptatibus minima eligendi autem possimus?
             </p>
         </div>
 
         <div class="alert alert-secondary">
-            <span class="alert-close" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span class="alert-close">&times;</span>
             <p>Your in danger! nah jk but heres some lorem: Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Odio repudiandae nesciunt laborum nulla corrupti assumenda voluptatibus minima eligendi autem possimus?
             </p>
         </div>
 
         <div class="alert alert-success">
-            <span class="alert-close" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span class="alert-close">&times;</span>
             <p>Your in danger! nah jk but heres some lorem: Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Odio repudiandae nesciunt laborum nulla corrupti assumenda voluptatibus minima eligendi autem possimus?
             </p>
         </div>
 
         <div class="alert alert-danger">
-            <span class="alert-close" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span class="alert-close">&times;</span>
             <p>Your in danger! nah jk but heres some lorem: Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Odio repudiandae nesciunt laborum nulla corrupti assumenda voluptatibus minima eligendi autem possimus?
             </p>
         </div>
 
         <div class="alert alert-warning">
-            <span class="alert-close" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span class="alert-close">&times;</span>
+            <p>Your in danger! nah jk but heres some lorem: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Odio repudiandae nesciunt laborum nulla corrupti assumenda voluptatibus minima eligendi autem possimus?
+            </p>
+        </div>
+
+        <div class="alert alert-info">
+            <span class="alert-close">&times;</span>
             <p>Your in danger! nah jk but heres some lorem: Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Odio repudiandae nesciunt laborum nulla corrupti assumenda voluptatibus minima eligendi autem possimus?
             </p>
@@ -95,12 +120,13 @@
         <button class="btn btn-success">Success Button</button>
         <button class="btn btn-danger">Danger Button</button>
         <button class="btn btn-warning">Warning Button</button>
+        <button class="btn btn-info">Info Button</button>
     </div>
 
     <!-- Forms -->
     <div class="container">
         <!-- Login -->
-        <div class="card">
+        <div class="card bg-primary">
             <div class="card-header">
                 <h2>Login</h2>
             </div>
@@ -118,7 +144,7 @@
         </div>
 
         <!-- Search -->
-        <div class="card">
+        <div class="card bg-primary">
             <div class="card-header">
                 <h2>Search</h2>
             </div>
@@ -169,6 +195,25 @@
         <input type="number">
         <input type="month">
     </div>
+
+    <footer class="footer footer-info">
+        <div class="footer-section">
+            <p class="text-white">Copyright &copy; 2019</p>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li>
+                    <a href="#">Youtube</a>
+                </li>
+                <li>
+                    <a href="#">Twitter</a>
+                </li>
+                <li>
+                    <a href="#">Facebook</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="./js/aseljs.js"></script>
 </body>

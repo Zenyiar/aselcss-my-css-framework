@@ -10,23 +10,13 @@ for (i = 0; i < alertClose.length; i++) {
   }
 }
 
-// // Modal JS
-// let modalId;
-// function modal(id) {
-//   var modal = document.getElementById(id);
-
-
-//   modalId = id;
-// }
-// var modalClose = document.getElementsByClassName("modal-close")[0];
-// modalClose.addEventListener('click', () => {
-//   modalId.style.display = "none";
+// Navbar Mobile JS
+// let mobileNavButton = document.getElementsByClassName("navbar-mobile-button")[0];
+// let mobileNavBar = document.getElementsByClassName("navbar-mobile-links")[0];
+// let body = document.body;
+// mobileNavButton.addEventListener('click', () => {
+//     body.style.display = "none";
+//     mobileNavBar.style.display = "flex";
 // });
-
-// window.onclick = function (event) {
-//   if (event.target == modalId) {
-//     modalId.style.display = "none";
-//   }
-// }
 
 // Other JS

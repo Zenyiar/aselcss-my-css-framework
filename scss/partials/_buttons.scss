@@ -1,5 +1,5 @@
 .btn {
-    padding: 1%;
+    padding: 1rem;
     margin-bottom: 1rem;
 
     // Default button if no btn-(type) 
@@ -57,6 +57,16 @@
         &:hover {
             cursor: pointer;
             background: rgba(255, 165, 0, 1);
+        }
+    }
+    
+    &-info {
+        background: rgba(5, 60, 94, .8);
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            background: rgba(5, 60, 94, 1);
         }
     }
 
