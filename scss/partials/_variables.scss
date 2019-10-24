@@ -1,6 +1,6 @@
 // Defaults
 $max-width: 1200px;
-$border-radius: .2rem;
+$border-radius: 5px;
 $font-family: 'Segoe UI', sans-serif;
 
 // Colors
@@ -13,6 +13,78 @@ $info-color: #053C5E;
 
 $dark: #373a3c;
 $light: #f8f9fa;
+
+// Colors with opacity
+$primary-color-01: rgba(36, 123, 160, .1);
+$primary-color-02: rgba(36, 123, 160, .2);;
+$primary-color-03: rgba(36, 123, 160, .3);;
+$primary-color-04: rgba(36, 123, 160, .4);;
+$primary-color-05: rgba(36, 123, 160, .5);;
+$primary-color-06: rgba(36, 123, 160, .6);;
+$primary-color-07: rgba(36, 123, 160, .7);;
+$primary-color-08: rgba(36, 123, 160, .8);;
+$primary-color-09: rgba(36, 123, 160, .9);;
+$primary-color-1: rgba(36, 123, 160, 1);;
+
+
+$secondary-color-01: rgba(99, 173, 242, .1);
+$secondary-color-02: rgba(99, 173, 242, .2);
+$secondary-color-03: rgba(99, 173, 242, .3);;
+$secondary-color-04: rgba(99, 173, 242, .4);;
+$secondary-color-05: rgba(99, 173, 242, .5);;
+$secondary-color-06: rgba(99, 173, 242, .6);;
+$secondary-color-07: rgba(99, 173, 242, .7);;
+$secondary-color-08: rgba(99, 173, 242, .8);;
+$secondary-color-09: rgba(99, 173, 242, .9);;
+$secondary-color-1: rgba(99, 173, 242, 1);;
+
+
+$success-color-01: rgba(70, 219, 43, .1);
+$success-color-02: rgba(70, 219, 43, .2);
+$success-color-03: rgba(70, 219, 43, .3);
+$success-color-04: rgba(70, 219, 43, .4);
+$success-color-05: rgba(70, 219, 43, .5);
+$success-color-06: rgba(70, 219, 43, .6);
+$success-color-07: rgba(70, 219, 43, .7);
+$success-color-08: rgba(70, 219, 43, .8);
+$success-color-09: rgba(70, 219, 43, .9);
+$success-color-1: rgba(70, 219, 43, 1);
+
+
+$warning-color-01: rgba(241, 162, 8, .1);
+$warning-color-02: rgba(241, 162, 8, .2);
+$warning-color-03: rgba(241, 162, 8, .3);
+$warning-color-04: rgba(241, 162, 8, .4);
+$warning-color-05: rgba(241, 162, 8, .5);
+$warning-color-06: rgba(241, 162, 8, .6);
+$warning-color-07: rgba(241, 162, 8, .7);
+$warning-color-08: rgba(241, 162, 8, .8);
+$warning-color-09: rgba(241, 162, 8, .9);
+$warning-color-1: rgba(241, 162, 8, 1);
+
+
+$danger-color-01: rgba(214, 40, 40, .1);
+$danger-color-02: rgba(214, 40, 40, .2);
+$danger-color-03: rgba(214, 40, 40, .3);
+$danger-color-04: rgba(214, 40, 40, .4);
+$danger-color-05: rgba(214, 40, 40, .5);
+$danger-color-06: rgba(214, 40, 40, .6);
+$danger-color-07: rgba(214, 40, 40, .7);
+$danger-color-08: rgba(214, 40, 40, .8);
+$danger-color-09: rgba(214, 40, 40, .9);
+$danger-color-1: rgba(214, 40, 40, 1);
+
+
+$info-color-01: rgba(5, 60, 94, .1);
+$info-color-02: rgba(5, 60, 94, .2);
+$info-color-03: rgba(5, 60, 94, .3);
+$info-color-04: rgba(5, 60, 94, .4);
+$info-color-05: rgba(5, 60, 94, .5);
+$info-color-06: rgba(5, 60, 94, .6);
+$info-color-07: rgba(5, 60, 94, .7);
+$info-color-08: rgba(5, 60, 94, .8);
+$info-color-09: rgba(5, 60, 94, .9);
+$info-color-1: rgba(5, 60, 94, 1);
 
 // Screen Sizing
 $breakpoint-xs: 0;

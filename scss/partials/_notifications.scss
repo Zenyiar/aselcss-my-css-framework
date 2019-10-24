@@ -50,26 +50,32 @@
 
     // Colors
     &-primary {
-        background: rgba(36, 123, 160, .9);
+        background: $primary-color-09;
+        color: white;
     }
-
+    
     &-secondary {
-        background: rgba(99, 173, 242, .9);
+        background: $secondary-color-09;
+        color: white;
     }
 
     &-success {
-        background: rgba(70, 219, 43, .9);
-    }
-
-    &-warning {
-        background: rgba(241, 162, 8, .9);
+        background: $success-color-09;
+        color: white;
     }
 
     &-danger {
-        background: rgba(214, 40, 40, .9);
+        background: $danger-color-09;
+        color: white;
     }
 
+    &-warning {
+        background: $warning-color-09;
+        color: white;
+    }
+    
     &-info {
-        background: rgba(5, 60, 94, .9);
+        background: $info-color-09;
+        color: white;
     }
 }

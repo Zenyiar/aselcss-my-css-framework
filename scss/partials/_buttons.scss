@@ -10,63 +10,67 @@
     border: none;
     border-radius: $border-radius;
 
+    &-block {
+        display: block;
+    }
+
     &-primary {
-        background: rgba(36, 123, 160, .8);
+        background: $primary-color;
         color: white;
 
         &:hover {
             cursor: pointer;
-            background: rgba(36, 123, 160, 1);
+            background: darken($primary-color, 5);
         }
     }
     
     &-secondary {
-        background: rgba(99, 173, 242, .8);
+        background: $secondary-color;
         color: white;
 
         &:hover {
             cursor: pointer;
-            background: rgba(99, 173, 242, 1);
+            background: darken($secondary-color, 5);
         }
     }
 
     &-success {
-        background: rgba(50, 205, 50, .8);
+        background: $success-color;
         color: white;
 
         &:hover {
             cursor: pointer;
-            background: rgba(50, 205, 50, 1);
+            background: darken($success-color, 5);
         }
     }
 
     &-danger {
-        background: rgba(255, 0, 0, .8);
+        background: $danger-color;
         color: white;
 
         &:hover {
             cursor: pointer;
-            background: rgba(255, 0, 0, 1);
+            background: darken($danger-color, 5);
         }
     }
 
     &-warning {
-        background: rgba(255, 165, 0, .8);
+        background: $warning-color;
         color: white;
 
         &:hover {
             cursor: pointer;
-            background: rgba(255, 165, 0, 1);
+            background: darken($warning-color, 5);
         }
     }
     
     &-info {
-        background: rgba(5, 60, 94, .8);
+        background: $info-color;
         color: white;
 
         &:hover {
             cursor: pointer;
-            background: rgba(5, 60, 94, 1);
+            background: darken($info-color, 5);
         }
     }
 

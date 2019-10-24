@@ -1,9 +1,13 @@
 .form-group {
-    padding: 1%;
+    padding: 1rem;
 
     .form-control {
         display: block;
-        margin-top: .5%;
-        margin-bottom: .5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .btn {
+        min-width: 1.4rem;
     }
 }

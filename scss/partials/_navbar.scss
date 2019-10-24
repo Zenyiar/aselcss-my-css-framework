@@ -38,7 +38,7 @@
                 li {
                     a {
                         &:hover {
-                            background: $secondary-color;
+                            background: darken($primary-color, 5);
                         }
                     }
                 }
@@ -53,7 +53,7 @@
                 li {
                     a {
                         &:hover {
-                            background: $primary-color;
+                            background: darken($secondary-color, 5);
                         }
                     }
                 }
@@ -68,7 +68,7 @@
                 li {
                     a {
                         &:hover {
-                            background: lime;
+                            background: darken($success-color, 5);
                         }
                     }
                 }
@@ -83,7 +83,7 @@
                 li {
                     a {
                         &:hover {
-                            background: $danger-color;
+                            background: darken($warning-color, 5);
                         }
                     }
                 }
@@ -98,7 +98,7 @@
                 li {
                     a {
                         &:hover {
-                            background: $warning-color;
+                            background: darken($danger-color, 5);
                         }
                     }
                 }
